@@ -1,0 +1,265 @@
+*{
+	box-sizing:border-box;
+}
+body{
+	margin:0;
+}
+.main-header{
+	position:fixed;
+	top:33px;
+	left:0;
+	right:0;
+	padding:0;
+	height:90px;
+	display:grid;
+	align-items:center;
+	z-index:10;
+	transition:0.25s;
+}
+
+.headerscroll{
+	top:0;
+	background-color:rgba(0,0,0,0.75);
+}
+
+.navbar-brand{
+	font-size:26px;
+	font-weight:700;
+	color:#fff;
+}
+.navbar-brand:hover{
+	color:#fff;
+}
+.menu__link{
+	text-transform:capitalize;
+	padding:10px 10px 10px;
+	font-size:18px;
+	font-weight:600;
+	color:#fff;
+	letter-spacing:.85px;
+}
+.menu__link:hover{
+	text-decoration:none;
+	color:#fbaf32;
+}
+.menu__link--select{
+	color:#fbaf32;
+}
+
+.logo i{
+	color:#fbaf32;
+}
+
+/*----------------estilos del banner----------------------*/
+.banner{
+	background:url(../img/burger8-1.jpg);
+	background-position:center;
+	background-size:cover;
+	
+	position:relative;
+	height:310px;
+	padding-top:3rem;
+	padding-bottom:3rem;
+}
+.banner:before{
+	content:'';
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	background:rgba(0, 0, 0, 0.6);
+}
+.tittle--banner{
+	color:#fff;
+	width:90%;
+	font-size:50px;
+	font-weight:600;
+	text-align:center;
+	margin-top:50px;
+	position:absolute;
+	z-index:2;
+	top:50%;
+	left:50%;
+	transform:translatex(-50%) translatey(-50%);
+}
+
+
+/*----------------estilos del sobre--nosotros----------------------*/
+.sobre--nosotros{
+	padding-top:3rem;
+	padding-bottom:3rem;
+}
+
+.tittle--small{
+	font-size:18px;
+	font-weight:600;
+	line-height:30px;
+	letter-spacing:1px;
+	display:block;
+}
+.tittle--big{
+	font-size:35px;
+	line-height:46px;
+	margin:0;
+	max-width:100%;
+}
+.chef--img{
+	display:block;
+	width:100%;
+	height:400px;
+	object-fit:cover;
+	border-radius:6px;
+}
+
+.team--img{
+	position:relative;
+	overflow:hidden;
+}
+
+.social--team{
+	position:absolute;
+	top:0;
+	left:0;
+	text-align:center;
+	width:100%;
+	height:100%;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	background:rgba(0,0,0,0.4);
+	transform:translatex(100%);
+	transition:.4s ease-in;
+}
+.team--img:hover .social--team{
+	transform:translatex(0);
+}
+
+.social--team a{
+	display:inline-block;
+	margin-right:5px;
+}
+.social--boton i{
+	color:#fbaf32;
+	font-size:16px;
+	width:42px;
+	height:42px;
+	border-radius:50%;
+	line-height:42px;
+	text-align:center;
+	background:#fff;
+}
+.social--boton i:hover{
+	color:#fff;
+	background:#fbaf32;
+}
+.team--nombres{
+	position:relative;
+	text-align:center;
+}
+.team--nombres h4{
+	margin:25px 0;
+	font-size:24px;
+	font-weight:600;
+}
+.team--nombres p{
+	margin:0;
+	padding:0;
+	font-size:18px;
+	letter-spacing:.5px;
+}
+
+/*----------------estilos del contacto----------------------*/
+.contacto{
+	background-color:#fbaf32;
+	padding-top:3rem;
+	padding-bottom:3rem;
+}
+.contacto h3{
+	font-size:36px;
+	line-height:46px;
+	margin:0;
+	max-width:100%;
+}
+.btn-white{
+	padding:12px 35px;
+	font-size:18px;
+	line-height:28px;
+	font-weight:600;
+	border-radius:6px;
+	background-color:#fff;
+	color:#fbaf32;
+	transition:0.3s ease-in;
+}
+
+
+/*----------------estilos del footer----------------------*/
+.main-footer{
+	padding-top:3rem;
+	padding-bottom:3rem;
+	background:#17181b;
+}
+.enlace--footer{
+	color:#fff;
+	font-size:30px;
+	font-weight:700;
+	text-decoration:none;
+}
+.enlace--footer:hover{
+	text-decoration:none;
+	color:#fff;
+}
+.logo--footer i{
+	color:#fbaf32;
+}
+.main-footer h3{
+	color:#fff;
+}
+.footer--text p{
+	color:#aaa;
+	font-size:18px;
+}
+.lista--metodos-pagos{
+	margin-top:1.5rem;
+	margin-right:0;
+}
+.lista--metodos-pagos li{
+	display:inline-block;
+	list-style:none;
+}
+.pagos--img{
+	width:42px;
+	height:35px;
+	margin-left:2px;
+	border-radius:4px;
+}
+
+
+.copy--right{
+	background:#1c1d21;
+	padding:15px 0;
+	text-align:center;
+}
+.copy--right p{
+	color:#aaa;
+	margin:0;
+	padding:0;
+	font-size:18px;
+	line-height:28px;
+	letter-spacing:.5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

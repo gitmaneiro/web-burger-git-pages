@@ -1,0 +1,418 @@
+*{
+	box-sizing:border-box;
+}
+body{
+	margin:0;
+}
+html{
+	scroll-behavior: smooth;
+}
+.main-header{
+	position:fixed;
+	top:33px;
+	left:0;
+	right:0;
+	padding:0;
+	height:90px;
+	display:grid;
+	align-items:center;
+	z-index:10;
+	transition:0.25s;
+}
+
+.headerscroll{
+	top:0;
+	background-color:rgba(0,0,0,0.75);
+}
+
+.navbar-brand{
+	font-size:26px;
+	font-weight:700;
+	color:#fff;
+}
+.navbar-brand:hover{
+	color:#fff;
+}
+.menu__link{
+	text-transform:capitalize;
+	padding:10px 10px 10px;
+	font-size:18px;
+	font-weight:600;
+	color:#fff;
+	letter-spacing:.85px;
+}
+.menu__link:hover{
+	text-decoration:none;
+	color:#fbaf32;
+}
+.menu__link--select{
+	color:#fbaf32;
+}
+
+/*----------------estilos del banner----------------------*/
+.banner{
+	background:url(../img/banner1.jpg);
+	background-position:center;
+	background-size:cover;
+	position:relative;
+	min-height:100vh;
+	padding-top:3rem;
+	padding-bottom:3rem;
+}
+.banner:before{
+	content:'';
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	background:rgba(0, 0, 0, 0.5);
+}
+.banner h3{
+	font-size:32px;
+	line-height:50px;
+	color:#fff;
+	font-weight:600;
+}
+.banner h2{
+	font-size:80px;
+	color:transparent;
+	-webkit-text-stroke-width:2px;
+	-webkit-text-stroke-color:#fff;
+	font-weight:800;
+	margin-bottom:25px;
+}
+.banner p{
+	color:#eee;
+	margin:0;
+	padding:0;
+	font-size:18px;
+	line-height:28px;
+	letter-spacing:.5px;
+}
+.btn-banner-menu{
+	padding:12px 35px;
+	font-size:18px;
+	line-height:28px;
+	font-weight:600;
+	border-radius:6px;
+	background:#fbaf32;
+}
+.btn-banner-reser{
+	padding:12px 35px;
+	font-size:18px;
+	line-height:28px;
+	font-weight:600;
+	border-radius:6px;
+	color:#fbaf32;
+	border-color:#fbaf32;
+}
+.btn-banner-reser:hover{
+	color:black;
+	background:#fbaf32;
+}
+.logo i{
+	color:#fbaf32;
+}
+
+/*----------------estilos del nosotros----------------------*/
+
+p{
+	margin:0;
+	padding:0;
+	font-size:18px;
+	line-height:28px;
+	letter-spacing:.5px;
+}
+
+
+
+.nosotros{
+	padding-top:3rem;
+	padding-bottom:3rem;
+}
+.nosotros img{
+	width:100%;
+	border-radius:15px;
+}
+.tittle--small{
+	font-size:18px;
+	font-weight:600;
+	line-height:30px;
+	letter-spacing:1px;
+	display:block;
+}
+.tittle--big{
+	font-size:35px;
+	line-height:46px;
+	margin:0;
+	max-width:100%;
+}
+.tittle--big span{
+	color:#fbaf32;
+}
+.btn-nosotros{
+	padding:12px 35px;
+	font-size:18px;
+	line-height:28px;
+	font-weight:600;
+	border-radius:6px;
+	background:#fbaf32;
+}
+
+/*----------------estilos del nuestro menu----------------------*/
+.nuestro-menu{
+	padding-top:3rem;
+	padding-bottom:3rem;
+	background:#f4f4f4;
+}
+.area--box{
+	padding:40px 30px;
+	border-radius:15px;
+	text-align:center;
+	background-color:#fff;
+	box-shadow:rgba(1, 1, 1, 0.06) 1px;
+	transition:.3s ease;
+}
+.area--box:hover{
+	transform:translatey(-0.25rem);
+	box-shadow:rgba(46, 41, 51, 0.08) 0px 2px 4px, rgba(71, 63, 79, 0.16) 0px 5px 10px;
+}
+.area--box i{
+	font-size:35px;
+	color:#fbaf32;
+}
+.tittle--head{
+	font-size:26px;
+	font-weight:600;
+	margin-top:25px;
+	margin-bottom:15px;
+	display:block;
+	color:black;
+}
+.tittle--head:hover{
+	text-decoration:none;
+	color:#fbaf32;
+}
+.btn--text{
+	font-size:20px;
+	font-weight:600;
+	margin:0;
+	padding:0;
+}
+
+/*----------------estilos del delivery----------------------*/
+.delivery{
+	padding-top:100px;
+	padding-bottom:100px;
+	background:url(../img/fdelivery.jpg);
+	color:#ffffff;
+	position:relative;
+	text-align:center;
+}
+.delivery h2{
+	font-size:35px;
+	margin-bottom:35px;
+}
+.padding--m{
+	padding-top:112px;
+}
+.ordenes{
+	margin-bottom:65px;
+}
+.orden--delivery{
+	display:inline-block;
+	width:86px;
+	height:86px;
+	box-sizing:border-box;
+	border-radius:50%;
+	border:2px solid #fff;
+	position:relative;
+	margin-bottom:20px;
+}
+.orden--delivery i{
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform:translatex(-50%) translatey(-50%);
+	font-size:30px;
+}
+.orden--numero{
+	width:30px;
+	height:30px;
+	border-radius:50%;
+	text-align:center;
+	line-height:30px;
+	font-size:18px;
+	position:absolute;
+	top:-9px;
+	left:7px;
+	background-color:#db304c;
+}
+.pagos{
+	position:relative;
+	z-index:1;
+}
+.city{
+	background:url(../img/pdelivery1.jpg);
+	position:absolute;
+	height:115px;
+	left:0;
+	right:0;
+	bottom:0;
+	background-position:left center;
+	background-repeat:repeat-x;
+	z-index:0;
+}
+
+/*----------------estilos de galeria----------------------*/
+.galeria{
+	padding-top:3rem;
+	padding-bottom:3rem;
+}
+.galeria--img{
+	display:block;
+	width:100%;
+	height:200px;
+	object-fit:cover;
+	border-radius:15px;
+	cursor:pointer;
+	transition:all 0.5s;
+}
+.galeria--img:hover{
+	transform:scale(1.02);
+	opacity:0.4;
+}
+
+/*----------------estilos de rasones----------------------*/
+
+.rasones{
+	padding-top:3rem;
+	padding-bottom:3rem;
+	background:#f4f4f4;
+}
+.icon{
+	display:block;
+	text-align:center;
+	font-size:40px;
+	color:#fbaf32;
+}
+.icon:hover{
+	color:#dc8b04;
+}
+.area{
+	text-align:center;
+}
+.tittle--ras{
+	font-size:26px;
+	font-weight:600;
+	margin-top:25px;
+	margin-bottom:15px;
+	display:block;
+	color:black;
+}
+.tittle--ras:hover{
+	text-decoration:none;
+	color:black;
+}
+
+/*----------------estilos del footer----------------------*/
+.main-footer{
+	padding-top:3rem;
+	padding-bottom:3rem;
+	background:#17181b;
+}
+.enlace--footer{
+	color:#fff;
+	font-size:30px;
+	font-weight:700;
+	text-decoration:none;
+}
+.enlace--footer:hover{
+	text-decoration:none;
+	color:#fff;
+}
+.logo--footer i{
+	color:#fbaf32;
+}
+.main-footer h3{
+	color:#fff;
+}
+.footer--text p{
+	color:#aaa;
+	font-size:18px;
+}
+.lista--metodos-pagos{
+	margin-top:1.5rem;
+	margin-right:0;
+}
+.lista--metodos-pagos li{
+	display:inline-block;
+	list-style:none;
+}
+.pagos--img{
+	width:42px;
+	height:35px;
+	margin-left:2px;
+	border-radius:4px;
+}
+
+
+.copy--right{
+	background:#1c1d21;
+	padding:15px 0;
+	text-align:center;
+}
+.copy--right p{
+	color:#aaa;
+	margin:0;
+	padding:0;
+	font-size:18px;
+	line-height:28px;
+	letter-spacing:.5px;
+}
+/*----------------estilos del Modal----------------------*/
+.modal{
+	position:fixed;
+	width:100%;
+	min-height:100vh;
+	background:rgba(255,255,255,0.5);
+	top:0;
+	left:0;
+	display:none;
+	z-index:1500;
+}
+.modal__content{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	height:100vh;
+}
+.modal__img{
+	width:70%;
+}
+.modal__boton{
+	position:absolute;
+	right:30px;
+	top:30px;
+	outline:none;
+	font-size:32px;
+	padding:0;
+	cursor:pointer;
+	font-weight:bold;
+}
+.modal--open{
+	display:block;
+}
+
+
+
+
+
+
+
+
+
+
+
+

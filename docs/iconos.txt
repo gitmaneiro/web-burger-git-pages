@@ -1,0 +1,27 @@
+<i class="far fa-bell"></i>
+<i class="fas fa-bell"></i>
+
+
+<i class="fas fa-concierge-bell"></i>
+
+<i class="fas fa-mobile-alt"></i>
+
+<i class="fas fa-shipping-fast"></i>
+
+<i class="fas fa-utensils"></i>
+
+
+
+<i class="fas fa-users"></i>
+
+<i class="fas fa-cogs"></i>
+
+<i class="fal fa-long-arrow-right"></i>
+
+
+<i class="far fa-clock"></i>
+<i class="fas fa-clock"></i>
+
+
+<i class="fab fa-whatsapp"></i>
+<i class="fab fa-whatsapp-square"></i>
